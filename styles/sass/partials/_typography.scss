@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    @include fontStyles(2rem, 3.2rem, #1f1f1f, 0px, none, normal, $mainFont, center);
+}
+
+h1 {
+    @include fontStyles(13rem, 9.2rem, #f6f6f6, 1px, uppercase, normal, $secondaryFont, inherit);
+}
+
+h2 {
+    @include fontStyles(4.2rem, normal, #1f1f1f, 1px, uppercase, normal, $secondaryFont, inherit);
+}
+
+h3 {
+    @include fontStyles(3.2rem, normal, #1f1f1f, 1px, uppercase, normal, $secondaryFont, inherit);
+}
+
+h4 {@include fontStyles(2.4rem, normal, #1f1f1f, 1px, uppercase, normal, $secondaryFont, inherit);
+
+}
+
+p {
+    @include fontStyles(2rem, 3.2rem, #1f1f1f, 0px, none, normal, $mainFont, inherit);
+}

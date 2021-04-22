@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98877f6abd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/css/styles.css">
+    <title>Willow</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper headerContent">
+            <nav class="topBar">
+                <ul class="nav">
+                    <li><a href="#" class="active">home</a></li>
+                    <li><a href="#who">about</a></li>
+                    <li><a href="#">willow</a></li>
+                    <li><a href="./pages/blog.html">blog</a></li>
+                    <li><a href="./pages/contact.html">contact</a></li>
+                </ul>
+
+                <span class="hamburger" id="hamburger" onclick="openMenu()">&#9776;</span>
+                <ul class="responsiveList" id="responsivelist">
+                    <li id="closemenu" onclick="closeMenu()">&#10006;</li>
+                    <li><a href="#" onclick="closeMenu()">HOME</a></li>
+                    <li><a href="#who" id="about" onclick="closeMenu()">ABOUT</a></li>
+                    <li><a href="./pages/blog.html" onclick="closeMenu()">BLOG</a></li>
+                    <li><a href="./pages/contact.html" onclick="closeMenu()">CONTACT</a></li>
+                </ul>
+
+            </nav>
+            <div class="feature">
+                <div class="texthalf">
+                    <div class="circle">
+                        <img src="./assets/circle-text.png" alt="">
+                    </div>
+                    <h1>willow</h1>
+                </div>
+                <div class="imageHalf">
+                    <div class="featureImage">
+                        <img src="./assets/home-image-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+
+        <section class="wrapper clearfix">
+            <div class="who" id="who">
+                <div class="whoTextContainer">
+                    <h2>Who's Willow?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse molestiae adipisci ratione?
+                        Optio
+                        rem sint aut natus quia ad reiciendis, possimus aliquid sunt eveniet, enim dicta modi labore
+                        quaerat
+                        velit quam laboriosam repellendus nobis sed, architecto commodi cupiditate iste. Nisi, voluptate
+                        facere
+                        excepturi similique vel eligendi doloribus ad natus ea hic asperiores itaque?</p>
+                    <button class="btn">find out more</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper clearfix">
+            <div class="favouriteThings">
+                <div class="favouriteThingsImage">
+                    <div class="favouriteThingsImageBoxShadow">
+                        <div class="favouriteThingsImageContainer">
+
+                            <img src="./assets/home-image-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="favouriteThingsText">
+                    <h3>Favourite Things</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magnam ratione iure
+                        deserunt
+                        sint
+                        harum
+                        similique vel deleniti nam sit, nisi nulla possimus quasi provident atque praesentium,
+                        maiores
+                        architecto quibusdam quas?</p>
+                    <button class="btn">read more</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="wrapper clearfix">
+            <div class="bucketList">
+                <div class="bucketListText">
+                    <h3>Bucket List</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere recusandae doloribus deserunt
+                        debitis
+                        inventore. Optio ipsa ab natus quasi? Mollitia, odio totam quo omnis veniam hic blanditiis
+                        officiis
+                        culpa molestias.</p>
+                    <button class="btn">read more</button>
+                </div>
+                <div class="bucketListImage">
+                    <div class="bucketListImageContainer">
+                        <img src="./assets/home-image-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper clearfix">
+            <div class="willowsJourney" id="willowsJourney">
+                <div class="willowsJourneyImageContainer"><img src="./assets/home-image-4.jpg" alt=""></div>
+                <div class="willowsJourneyTextContainer">
+                    <h2>Willow's Journey</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, dolore animi cum
+                        consectetur
+                        ipsam
+                        voluptates fugit nisi explicabo non voluptas, unde repudiandae fugiat et illo ex doloribus
+                        voluptate?
+                        Excepturi, at. Sapiente porro ut harum aspernatur officiis a quam mollitia odio velit, quos, quo
+                        amet
+                        illo perspiciatis numquam.</p>
+                    <button class="btn">find out more</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="landscape wrapper">
+            <div class="landscapeContainer"></div>
+        </section>
+
+        <section class="wrapper">
+            <div class="homeGallery" id="homeGallery">
+                <ul class="clearfix">
+                    <li><img src="./assets/home-image-6.jpg" alt=""></li>
+                    <li><img src="./assets/home-image-7.jpg" alt=""></li>
+                    <li><img src="./assets/home-image-8.jpg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="wrapper clearfix ">
+            <div class="myInfo">
+                <div class="miscIcons">
+                    <div class="firstHalfIcons">
+                        <div class="info">
+                            <i class="fas fa-image circle-icon"></i>
+                            <h3>Photos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odit distinctio
+                                repellendus voluptatum. Quam nulla asperiores aliquam id architecto consectetur.</p>
+                        </div>
+                        <div class="info">
+                            <i class="fas fa-desktop circle-icon"></i>
+                            <h3>Blog</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odit distinctio
+                                repellendus voluptatum. Quam nulla asperiores aliquam id architecto consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="secondHalfIcons">
+                        <div class="info">
+                            <i class="fas fa-user circle-icon"></i>
+                            <h3>About</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odit distinctio
+                                repellendus voluptatum. Quam nulla asperiores aliquam id architecto consectetur.</p>
+                        </div>
+                        <div class="info">
+                            <i class="fas fa-phone circle-icon"></i>
+                            <h3>contact me</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odit distinctio
+                                repellendus voluptatum. Quam nulla asperiores aliquam id architecto consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footerText">
+                <p>Copyright &#169; 2021 Juno College </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function openMenu() {
+            document.getElementById('responsivelist').style.width = "200px";
+        }
+        function closeMenu() {
+            document.getElementById('responsivelist').style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+
+
+.contactBannerContainer {
+    display: flex;
+}
+
+.contactBannerImageBlog {
+    width: 100%;
+    height: 30vh;
+    background: url(../../assets/blog-image-1.jpg);
+    background-size: cover;
+    z-index: 0;
+}
+
+.blogBottomHalf {
+    display: flex;
+    background: $secondaryColor;
+    justify-content: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+// Left side of Blog page
+
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    height: 110rem;
+    margin: 5rem 2rem 5rem 10rem;
+}
+
+.aboutWillow {
+    background: white;
+}
+
+.aboutWillowImageContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 3rem 3rem 3rem;
+    // margin: 3rem;
+}
+
+.aboutWillowImageContainer img {
+    width: 100%;
+    margin-top:3rem;
+}
+
+.aboutWillowTextContainer {
+    background: white;
+    text-align: left;
+    padding: 3rem;
+}
+
+.recentPosts {
+    background:white;
+}
+
+.recentPostsTextContainer {
+     background: white;
+     text-align: left;
+     padding: 3rem;
+}
+
+.recentPostsList li {
+    list-style: initial;
+}
+
+// Right side of Blog page
+
+.rightContent {
+    width: 60%;
+    margin: 5rem 10rem 10rem 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.blog1TextContainer {
+        
+        background: white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        box-shadow: 0rem 1rem $boxShadow;
+}
+
+.blog1 {
+    margin-bottom: 2rem;
+}
+
+.blog2 {
+    
+    background: white;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+
+
+.blogImageContainer {
+    width:70%;
+    display: block;
+    margin: 2rem;
+}
+
+.blogImageContainer img {
+    margin: 0 auto;
+}
+
+.blog3 {
+    box-shadow: 0rem 1rem $boxShadow;
+    background: white;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.formInfoBlog {
+    margin:0 auto;
+    width: 100%;
+}
+
+fieldset {
+    padding: 0;
+}
+
+// ********** MEDIA QUERIES ***********
+
+@media (max-width: 1160px) {
+.leftContent {
+    height: 115rem;
+    margin-left: 5rem;
+    
+}
+
+.rightContent {
+    margin-right: 5rem;
+}
+   
+}
+
+@media (max-width: 1061px) {
+.leftContent {
+    margin-left: 3rem;
+    
+}
+
+.rightContent {
+    margin-right: 3rem;
+}
+
+.aboutWillowTextContainer, .recentPostsTextContainer {
+    padding: 0.75rem;
+}
+
+.blog1TextContainer {
+    padding: 1rem;
+}
+
+}
+
+@media (max-width: 1061px) {
+    .leftContent {
+    margin-right: 1rem;
+    
+}
+
+.rightContent {
+    margin-left: 1rem;
+}
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    span.hamburger {
+        display: block;
+        text-align: left;
+        z-index: 10;
+    }
+    nav {
+        text-align: left;
+    }
+    li {
+        font-size: 3rem;
+        font-weight: 400;
+        font-family: $mainFont;
+    }
+    #about {
+        font-size: 3rem;
+        font-weight: regular;
+        font-family: $mainFont;
+    }
+}
+
