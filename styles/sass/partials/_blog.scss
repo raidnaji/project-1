@@ -6,7 +6,7 @@
 
 .contactBannerImageBlog {
     width: 100%;
-    height: 30vh;
+    // height: 30vh;
     background: url(../../assets/blog-image-1.jpg);
     background-size: cover;
     z-index: 0;
@@ -29,7 +29,7 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
     width: 35%;
-    height: 110rem;
+    // height: 110rem;
     margin: 5rem 2rem 5rem 10rem;
 }
 
@@ -79,7 +79,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    // height: 100%;
 }
 
 .blog1TextContainer {
@@ -134,7 +134,7 @@ fieldset {
 
 @media (max-width: 1160px) {
 .leftContent {
-    height: 115rem;
+    // height: 115rem;
     margin-left: 5rem;
     
 }

@@ -6,6 +6,18 @@
 @import "partials/contact.scss";
 @import "partials/_blog.scss";
 
+header {
+    background: $headerColor;
+}
+
+.background {
+    background: $secondaryColor;
+}
+
+.footerColor {
+    background: black;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 100%;
@@ -13,9 +25,9 @@
 }
 
 .headerContent {
-    height: 58rem;
+    // height: 58rem;
     width: 100%;
-    background: $headerColor;
+    // background: $headerColor;
 }
 
 h2, h3 {
@@ -77,7 +89,7 @@ ul#responsivelist {
     top: 0;
     left: 0;
     background: $boxShadow;
-    min-height: 100vh;
+    // min-height: 100vh;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -111,7 +123,7 @@ nav ul span {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 43.5rem;
+    // height: 43.5rem;
 }
 
 .textHalf {
@@ -126,21 +138,21 @@ nav ul span {
 .imageHalf {
     width: 30%;
     padding: 0 0 5rem 3rem;
-    height: 100%;
+    // height: 100%;
 }
 
 .featureImage img{
     display:inline-block;
     box-shadow: 1.5rem 1.5rem white;
     max-width: 100%;
-    height: auto;
+    // height: auto;
     margin-top: 2rem;
 }
 
 .feature .circle {
     position: absolute;
     max-width: 10rem;
-    height: 10rem;
+    // height: 10rem;
     // bottom: 58.5%;
     bottom:60vh;
     left: 13.5%;
@@ -149,9 +161,10 @@ nav ul span {
 
 // --------- WHO'S WILLOW SECTION ---------
 
+
+
 .who {
-    height: 50rem;
-    background: $secondaryColor;
+    // height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +174,7 @@ nav ul span {
 .whoTextContainer {
     display: flex;
     width: 80%;
-    height: 42rem;
+    // height: 42rem;
     justify-content: center;
     align-content: center;
     flex-direction: column;
@@ -190,14 +203,21 @@ nav ul span {
 
 // --------- FAVOURITE THINGS SECTION ---------
 
+.top {
+    padding-top: 8rem;
+}
+
 .favouriteThings {
     display:flex;
+    flex-wrap: wrap;
     margin-bottom: 5rem;
-    height: 36rem;
+    // height: 36rem;
 }
 
 .favouriteThingsImage {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .favouriteThingsText {
@@ -205,57 +225,60 @@ nav ul span {
     padding-left: 8rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    // justify-content: flex-end;
     align-content: flex-end;
+    text-align: center; 
+    padding: 0 4rem;
+
 }
 
-.favouriteThingsText {
-    text-align: left; 
-}
-
-.favouriteThingsImage {
-    background:$boxShadow;
+.favouriteThingsImage img {
     box-shadow: 2rem -2rem $boxShadow;
 }
 
 .favouriteThingsImageContainer  {
-    position: relative;
+    // position: relative;
 }
 
 .favouriteThingsImageContainer img {
     width: 80%;
-    position: absolute;
-    right: 0;
-    top: -4rem;
-    height: auto;
+    // position: absolute;
+    // right: 0;
+    // top: -4rem;
+    // height: auto;
     box-shadow: 2rem 7rem $boxShadow;
 }
 
 .favouriteThingsImageBoxShadow {
     box-shadow: 0rem -2rem $boxShadow;
-    height: 42rem;
+    // height: 42rem;
 }
 
 .favouriteThingsText .btn {
     align-content: left;
-    margin: 0;
+    margin: 0 auto;
     width: 15rem;
 }
 
 // --------- BUCKET LIST SECTION ---------
 
+.bottom {
+    padding-bottom: 8rem;
+}
+
 .bucketList {
     display:flex;
-    height: 36rem;
+    flex-wrap: wrap;
+    // height: 36rem;
 }
 
 
 .bucketListText {
-    padding-right: 8rem;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    justify-content: start;
+    padding: 0 4rem;
+    // display: flex;
+    // flex-direction: column;
+    // text-align: right;
+    // justify-content: start;
 }
 
 .bucketListText .btn {
@@ -263,26 +286,28 @@ nav ul span {
     width: 15rem;
 }
 
-.bucketListImage {
-    background: linear-gradient(to top, $headerColor 95%, white 5%);
-    box-shadow: 1rem 6rem 0 -1rem $headerColor;
+.bucketListImage img {
+    // background: linear-gradient(to top, $headerColor 95%, white 5%);
+    box-shadow: 2rem 2rem $headerColor;
 }
 
-.bucketListImageContainer {
-    position: relative;
-}
+// .bucketListImageContainer {
+//     position: relative;
+// }
 
 .bucketListImageContainer img {
     
-    position: absolute;
+    // position: absolute;
     width: 80%;
-    left: 0;
-    height: 39rem;
+    // left: 0;
+    // height: 39rem;
     // box-shadow: 2rem 4rem $boxShadow;
 }
 
 .bucketListImage {
     width: 50%;
+     display: flex;
+    justify-content: center;
 }
 
 .bucketListText {
@@ -293,7 +318,7 @@ nav ul span {
 
 .willowsJourney {
     display:flex;
-    height: 50rem;
+    // height: 50rem;
     background: $secondaryColor;
     display: flex;
     justify-content: center;
@@ -309,13 +334,13 @@ nav ul span {
 
 .willowsJourneyImageContainer {
 width: 25%;
-height: 25rem;
+// height: 25rem;
 margin: 5rem 5rem 5rem 10rem;
 }
 
 .willowsJourneyImageContainer img {
     width: 100%;
-    height: auto;
+    // height: auto;
     box-shadow: 1.5rem 1.5rem $boxShadow;
 }
 
@@ -323,7 +348,7 @@ margin: 5rem 5rem 5rem 10rem;
 
 .landscape {
     width: 100%;
-    height: 36rem;
+    // height: 36rem;
     background: url(../../assets/home-image-5.jpg);
     background-size: cover;
 }
@@ -337,7 +362,7 @@ margin: 5rem 5rem 5rem 10rem;
     // align-items: center;
     align-content: center;
     margin: 3rem;
-    height: 43.5rem;
+    // height: 43.5rem;
 }
 
 .homeGallery li {
@@ -362,19 +387,20 @@ margin: 5rem 5rem 5rem 10rem;
     padding: 0;
     display: flex;
     width: 80%;
-    height: auto;
+    // height: auto;
 }
 
 // MY INFO SECTION
 
 .myInfo {
-    height: 50rem;
+    // height: 50rem;
     background: $secondaryColor;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: left;
+    padding: 8rem;
 }
 
 .miscIcons {
@@ -386,13 +412,18 @@ margin: 5rem 5rem 5rem 10rem;
 }
 
 .info {
-    position: relative;
+    // position: relative;
 }
 
 .info i {
-    position: absolute;
-    top: 2%;
-    left: -13%;
+    // position: absolute;
+    // top: 2%;
+    // left: -13%;
+    margin-right: 2rem;
+}
+
+.infoContainer {
+    display: flex;
 }
 
 .circle-icon {
@@ -417,6 +448,8 @@ margin: 5rem 5rem 5rem 10rem;
     margin: 0;
     color:white;
 }
+
+
 
 
 // ********** MEDIA QUERIES ***********
@@ -451,17 +484,17 @@ margin: 5rem 5rem 5rem 10rem;
         margin-left: 2rem;
     }
     .myInfo {
-    height: 55rem;
+    // height: 55rem;
     }
 
     .favouriteThingsImageContainer img {
-        height:35rem;
+        // height:35rem;
     }
 }
 
 @media (max-width: 915px) {
     .willowsJourney {
-        height: 54rem;
+        // height: 54rem;
     }
     .willowsJourneyTextContainer {
         margin-right: 3rem; 
@@ -477,15 +510,29 @@ margin: 5rem 5rem 5rem 10rem;
         padding-left: 4rem;
     }
     .favouriteThings {
-        height: 39rem;
+        // height: 39rem;
     }
     .favouriteThingsImageContainer img {
         width: 95%;
-        height:35rem;
+        // height:35rem;
     }
 }
 
 @media (max-width: 880px) {
+
+    .willowsJourney {
+        flex-wrap: wrap;
+    }
+
+    .willowsJourneyImageContainer {
+        width: 70%;
+    }
+    .willowsJourneyTextContainer {
+        margin-top: 8rem;
+        width: 100%;
+        text-align: center;
+    }
+
     .feature .circle {
     display: none;
     }
@@ -496,6 +543,32 @@ margin: 5rem 5rem 5rem 10rem;
 }
 
 @media (max-width: 768px) {
+    .bucketList {
+    flex-direction: column-reverse;
+    }
+
+    .homeGallery ul {
+        flex-wrap: wrap;
+    }
+
+    .homeGallery li:nth-of-type(3n+1) {
+    margin-left: 2rem;
+    }
+
+    .homeGallery li:nth-of-type(3n) {
+    margin-right: 2rem;
+    }
+
+    .secondHalfIcons {
+    margin-left: 0rem;
+    }
+
+    .myInfo {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    
     .nav {
         display: none;
     }
@@ -523,4 +596,17 @@ margin: 5rem 5rem 5rem 10rem;
         margin: 20px 0;
     }
                 
+}
+
+@media (max-width: 578px) {
+    .imageHalf {
+        display: none;
+        // visibility: hidden;
+    }
+
+    .texthalf h1 {
+        text-align: center;
+    }
+
+
 }

@@ -1,6 +1,6 @@
 // Header/Nav
 .contactPage .headerContent {
-    height: 7rem;
+    // height: 7rem;
 }
 
 //--------- Banner photo ---------
@@ -8,7 +8,7 @@
 .contactBanner {
     margin: 0;
     width: 100%;
-    height: 30vh;
+    // height: 30vh;
 
 }
 
@@ -22,7 +22,7 @@
 position: absolute;
   bottom: -2vh;
   box-sizing: border-box;
-  max-height: calc(100% - 14rem);
+//   max-height: calc(100% - 14rem);
   margin-left: 8rem;
   font-size: 1rem;
   overflow: hidden;
@@ -37,7 +37,7 @@ position: absolute;
 
 .contactBannerImage {
     width: 100%;
-    height: 30vh;
+    // height: 30vh;
     background: url(../../assets/contact-image-1.jpg);
     background-size: cover;
 }
@@ -100,7 +100,7 @@ fieldset .btn {
 .myDetails {
     border: none;
     background: white;
-    height: 29rem;
+    // height: 29rem;
     margin:0;
     padding: 0 3rem;
     display: flex;
@@ -147,7 +147,7 @@ fieldset .btn {
 .contactInfo {
     display: flex;
     // background: white;
-    height: 59vh;
+    // height: 59vh;
     text-align: left;
     justify-content: center;
 }
