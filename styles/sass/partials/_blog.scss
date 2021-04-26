@@ -1,4 +1,6 @@
-
+.headerContent {
+    background: #345231;
+}
 
 .contactBannerContainer {
     display: flex;
@@ -9,7 +11,8 @@
     // height: 30vh;
     background: url(../../assets/blog-image-1.jpg);
     background-size: cover;
-    z-index: 0;
+    position: relative;
+    height: 30vh;
 }
 
 .blogBottomHalf {
@@ -27,10 +30,9 @@ h4 {
 .leftContent {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 35%;
-    // height: 110rem;
     margin: 5rem 2rem 5rem 10rem;
+    // height: 110rem;
 }
 
 .aboutWillow {
@@ -58,6 +60,7 @@ h4 {
 
 .recentPosts {
     background:white;
+    margin-top: 5rem;
 }
 
 .recentPostsTextContainer {
@@ -118,7 +121,7 @@ h4 {
     box-shadow: 0rem 1rem $boxShadow;
     background: white;
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 .formInfoBlog {
@@ -135,19 +138,19 @@ fieldset {
 @media (max-width: 1160px) {
 .leftContent {
     // height: 115rem;
-    margin-left: 5rem;
-    
+    // margin-left: 5rem;
+    // margin: 0;
 }
 
 .rightContent {
-    margin-right: 5rem;
+    // margin-right: 5rem;
 }
    
 }
 
 @media (max-width: 1061px) {
 .leftContent {
-    margin-left: 3rem;
+    // margin-left: 3rem;
     
 }
 
@@ -167,13 +170,12 @@ fieldset {
 
 @media (max-width: 1061px) {
     .leftContent {
-    margin-right: 1rem;
+    margin: 5rem 2rem 5rem 10rem;
     
 }
 
 .rightContent {
     margin-left: 1rem;
-}
 }
 
 @media (max-width: 768px) {
@@ -198,5 +200,48 @@ fieldset {
         font-weight: regular;
         font-family: $mainFont;
     }
-}
 
+    .recentPosts {
+        display: none;
+    }
+
+    .contactBannerText h2 {
+        font-size: 6rem;
+    }
+
+    .blogBottomHalf {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .leftContent {
+        width: 100%;
+        padding: 4rem;
+        margin: 0;
+    }
+
+    .aboutWillowTextContainer {
+        text-align: center;
+    }
+
+    .aboutWillow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recentPosts {
+        margin-top: 5rem;
+    }
+
+    .rightContent {
+        width: 100%;
+        padding: 4rem;
+        margin: auto;
+    }
+
+    .blog3 {
+        margin-bottom: 6rem;
+    }
+}
+}

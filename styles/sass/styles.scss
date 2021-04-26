@@ -51,7 +51,7 @@ img {
     width: 64rem;
     margin: 0 auto;
     list-style: none;
-    padding: 2rem 0;
+    padding-top: 2rem;
 }
 
 .nav a {
@@ -137,8 +137,14 @@ nav ul span {
 
 .imageHalf {
     width: 30%;
-    padding: 0 0 5rem 3rem;
+    padding-left: 4rem;
     // height: 100%;
+}
+
+.featureImage {
+    position: relative;
+    top: 3vw;
+    width: 150%;
 }
 
 .featureImage img{
@@ -150,13 +156,12 @@ nav ul span {
 }
 
 .feature .circle {
-    position: absolute;
+    position: relative;
     max-width: 10rem;
     // height: 10rem;
     // bottom: 58.5%;
-    bottom:60vh;
-    left: 13.5%;
-    z-index: 10;
+    top: 40%;
+    left: -10%;
 }
 
 // --------- WHO'S WILLOW SECTION ---------
@@ -594,6 +599,9 @@ margin: 5rem 5rem 5rem 10rem;
     .favouriteThingsImage, .favouriteThingsText, .bucketListText, .bucketListImage, .willowsJourney {
         width: 100%;
         margin: 20px 0;
+    }
+    .featureImage img, .favouriteThingsImage img, .favouriteThingsImageContainer img, .favouriteThingsImageBoxShadow, .bucketListImage img {
+        box-shadow: none;
     }
                 
 }

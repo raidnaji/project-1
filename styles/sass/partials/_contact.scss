@@ -1,5 +1,5 @@
 // Header/Nav
-.contactPage .headerContent {
+.contactPage {
     // height: 7rem;
 }
 
@@ -169,4 +169,9 @@ fieldset .btn {
     // ul .nav {
     //     display: none;
     // }
+     span.hamburger {
+        display: block;
+        text-align: left;
+        z-index: 10;
+    }
 }
