@@ -554,7 +554,6 @@ h4 {
 }
 
 .blogImageContainer {
-  width: 70%;
   display: block;
   margin: 2rem;
 }
@@ -577,6 +576,18 @@ h4 {
 
 fieldset {
   padding: 0;
+}
+
+.blogImageContainer {
+  width: 25%;
+}
+
+.blog3TextContainer, .blog2TextContainer {
+  width: 65%;
+}
+
+.blogImageContainer img {
+  width: 100%;
 }
 
 @media (max-width: 1061px) {

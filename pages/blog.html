@@ -135,35 +135,37 @@
                                 accusamus.</p>
                         </div>
                     </div>
-                    <div class="blog2">
-                        <div class="blogImageContainer"><img src="../assets/blog-image-3.jpg"
-                                alt="A picture of the person who commented on Willow's blog post. Their name is Barb">
+                    <div class="blogCommentContainer">
+                        <div class="blog2">
+                            <div class="blogImageContainer"><img src="../assets/blog-image-3.jpg"
+                                    alt="A picture of the person who commented on Willow's blog post. Their name is Barb">
+                            </div>
+                            <div class="blog2TextContainer">
+                                <p>Tuesday October 9th, 2018 by Barb</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nobis ipsum facilis
+                                    assumenda
+                                    quasi sed facere excepturi dolorum minus reiciendis iure consequuntur, voluptatem
+                                    qui!
+                                    Eveniet nam saepe blanditiis nostrum accusantium sit nobis praesentium, optio!</p>
+                            </div>
                         </div>
-                        <div class="blog2TextContainer">
-                            <p>Tuesday October 9th, 2018 by Barb</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nobis ipsum facilis
-                                assumenda
-                                quasi sed facere excepturi dolorum minus reiciendis iure consequuntur, voluptatem
-                                qui!
-                                Eveniet nam saepe blanditiis nostrum accusantium sit nobis praesentium, optio!</p>
-                        </div>
-                    </div>
-                    <div class="blog3">
-                        <div class="blogImageContainer"><img src="../assets/blog-image-4.jpg"
-                                alt="A picture of the person who commented on Willow's blog post. Their name is Daisy">
-                        </div>
-                        <div class="blog3TextContainer">
-                            <p>Wednesday October 10th, 2018 by Barb</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptate quo
-                                laudantium
-                                omnis dolorum iste ipsum ad aspernatur! Repellendus amet, asperiores suscipit
-                                corrupti
-                                repellat vel voluptate! Cumque natus nam dignissimos? Vitae iusto ratione incidunt!
-                            </p>
+                        <div class="blog3">
+                            <div class="blogImageContainer"><img src="../assets/blog-image-4.jpg"
+                                    alt="A picture of the person who commented on Willow's blog post. Their name is Daisy">
+                            </div>
+                            <div class="blog3TextContainer">
+                                <p>Wednesday October 10th, 2018 by Barb</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptate quo
+                                    laudantium
+                                    omnis dolorum iste ipsum ad aspernatur! Repellendus amet, asperiores suscipit
+                                    corrupti
+                                    repellat vel voluptate! Cumque natus nam dignissimos? Vitae iusto ratione incidunt!
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="formInfo formInfoBlog">
-                        <form action="">
+                        <form action="" id="blogForm">
                             <fieldset>
                                 <div class="formBox">
                                     <label for="name" class="visuallyHidden">Name</label>
@@ -172,7 +174,7 @@
                                     <label for="email" class="visuallyHidden">Email address</label>
                                     <input type="email" placeholder="Email address" id="email" name="Email address">
                                 </div>
-                                <textarea name="usermessage" placeholder="Comment"></textarea>
+                                <textarea name="usermessage" placeholder="Comment" id="comment"></textarea>
                                 <button class="btn" type="submit">POST COMMENT</button>
                             </fieldset>
                         </form>
@@ -209,4 +211,6 @@
             document.getElementById('responsivelist').style.width = "0";
         }
     </script>
+
+    <script src="../js/script.js"></script>
 </body>
